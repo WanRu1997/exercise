@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>风景列表</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        display: list-item;
+        list-style: none;
+    }
+    .all{
+        margin: 0 auto;
+        width: 800px;
+    }
+    .header{
+        padding:20px 0px 10px 0px;
+        text-align: center;
+        color:#666;
+    }
+    .content{
+        width:850px;
+        padding-top: 20px ;
+    }
+    .content::after{
+        content: ' ';
+        display: block;
+        clear: both;
+    }
+    .box{
+        width: 260px;
+        float:left;
+        margin-right: 10px;
+        margin-top:30px;
+        box-shadow:0px 5px 10px 0px rgba(0,0,0,0.5);
+    }
+    .box>img{
+        width: 100%;
+        opacity: 0.75;
+    }
+    .title{
+        text-align: center;
+        padding:20px 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+            <h1>风景列表</h1>
+        </div>
+        <hr>
+        <div class="content">
+            <ul>
+                <li class="box">
+                    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+                    <div class="title">风景如画</div>
+                </li>
+                <li class="box">
+                    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+                    <div class="title">风景如画</div>
+                </li>
+                <li class="box">
+                    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+                    <div class="title">风景如画</div>
+                </li>
+                <li class="box">
+                    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+                    <div class="title">风景如画</div>
+                </li>
+                <li class="box">
+                    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+                    <div class="title">风景如画</div>
+                </li>
+                <li class="box">
+                    <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+                    <div class="title">风景如画</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
